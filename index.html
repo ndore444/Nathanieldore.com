@@ -8,17 +8,25 @@
 </head>
 <style>
     body {
-        background: linear-gradient(to right, #1e3c72, #2a5298);
+        background-color: #0a0f2c;
         font-family: 'Verdana', sans-serif;
-        color: rgb(200, 200, 200);
+        color: #d3d3d3;
         margin: 0;
         padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .container {
+        max-width: 800px;
+        text-align: center;
+        padding: 20px;
     }
 
     header {
-        background-color: rgba(0, 0, 0, 0.5);
         padding: 20px;
-        text-align: center;
     }
 
     h1 {
@@ -28,7 +36,7 @@
 
     section {
         padding: 20px;
-        margin: 20px;
+        margin: 20px 0;
         background-color: rgba(255, 255, 255, 0.1);
         border-radius: 10px;
     }
@@ -61,38 +69,35 @@
     }
 
     footer {
-        text-align: center;
         padding: 10px;
-        background-color: rgba(0, 0, 0, 0.5);
     }
 
 </style>
 <body>
-
-
-    <header>
-        <h1 style="text-align:center">Welcome to My Personal Repository</h1>
-    </header>
-    <section>
-        <h2>About Me</h2>
-        <p>Hello! I'm Nathaniel, a passionate developer with a love for creating innovative solutions. Welcome to my personal repository where I showcase my projects and share my journey in the tech world.</p>
-    </section>
-    <section>
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="#">Project 1</a> - A brief description of project 1.</li>
-            <li><a href="#">Project 2</a> - A brief description of project 2.</li>
-            <li><a href="#">Project 3</a> - A brief description of project 3.</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me at <a href="mailto:nathaniel@example.com">nathaniel@example.com</a>.</p>
-    </section>
-    <footer>
-        <p style="text-align:center">&copy; 2024 Nathaniel Dore</p>
-    </footer>
-
+    <div class="container">
+        <header>
+            <h1>Welcome to My Personal Repository</h1>
+        </header>
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! I'm Nathaniel, a passionate developer with a love for creating innovative solutions. Welcome to my personal repository where I showcase my projects and share my journey in the tech world.</p>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">Project 1</a> - A brief description of project 1.</li>
+                <li><a href="#">Project 2</a> - A brief description of project 2.</li>
+                <li><a href="#">Project 3</a> - A brief description of project 3.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me at <a href="mailto:nathaniel@example.com">nathaniel@example.com</a>.</p>
+        </section>
+        <footer>
+            <p>&copy; 2024 Nathaniel Dore</p>
+        </footer>
+    </div>
 
 </body>
 </html>
