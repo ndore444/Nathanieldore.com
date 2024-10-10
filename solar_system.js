@@ -14,7 +14,7 @@ scene.add(sun);
 const planets = [
     { name: 'Mercury', size: 0.055, color: 0xaaaaaa, distance: 1.5, inclination: 7 },
     { name: 'Venus', size: 0.095, color: 0xffcc00, distance: 2.5, inclination: 3.39 },
-    { name: 'Earth', size: 0.1, color: 0x0000ff, distance: 3.5, inclination: 50 },
+    { name: 'Earth', size: 0.1, color: 0x0000ff, distance: 3.5, inclination: 0 },
     { name: 'Mars', size: 0.053, color: 0xff0000, distance: 4.5, inclination: 1.85 },
     { name: 'Jupiter', size: 1.0, color: 0xff8800, distance: 6.5, inclination: 1.3 },
     { name: 'Saturn', size: 0.85, color: 0xffdd44, distance: 8.5, inclination: 2.49 },
