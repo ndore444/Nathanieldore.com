@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <title>Website Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="tabs" aria-label="main">
+      <a href="#about">about</a>
+      <a href="#projects">projects</a>
+      <a href="#toolbox">toolbox</a>
+      <a href="#contact">contact</a>
+    </nav>
+
+    <main>
+<!--Page Header Title Section-->
+      <section id="about">
+        <div class="ln"><span class="prompt">$</span> <span class="type">whoami</span><span class="cursor cursor-typing" aria-hidden="true"></span></div>
+        <div class="ln"><h1 class="name reply">My Name</h1></div>
+        <div class="ln"><span class="role reply">Developer</span></div>
+        <div class="ln"><span class="reply"><span class="prompt">$</span> <span class="cursor" aria-hidden="true"></span></span></div>
+        <div class="gap"></div>
+        <div class="ln divider"><span class="reply">----------------------------------------------------------------------------------------------------</span></div>
+
+<!--Read Me section-->
+        <div class="ln"><span class="prompt">$</span> cat readme.md</div>
+        <div class="ln"># This page serves as a personal repository to showcase some of my</div>
+        <div class="ln"># personal work, and provide some useful links while allowing me to tinker.</div>
+        <div class="ln"># Look forward to new updates on this page, as I add more projects and information.</div>
+        <div class="gap"></div>
+      </section>
+
+<!--Projects Section-->
+      <section id="projects">
+        <div class="ln divider">----------------------------------------------------------------------------------------------------</div>
+        <div class="ln"><span class="prompt">$</span>ls projects/</div>
+
+        <div class="ln proj">
+          <a href="https://github.com/">project-one/</a>
+          <span class="dim">// Summary Text</span>
+          <span class="str meta">["Python", "C++"]</span>
+        </div>
+
+        <div class="ln proj">
+          <a href="https://github.com/">project-two/</a>
+          <span class="dim">// Summary Text</span>
+          <span class="str meta">["Python", "C++"]</span>
+        </div>
+
+        <div class="ln proj">
+          <a href="https://github.com/">project-three/</a>
+          <span class="dim">// Summary Text</span>
+          <span class="str meta">["Python", "C++"]</span>
+        </div>
+
+        <div class="gap"></div>
+      </section>
+
+<!---->
+      <section id="toolbox">
+        <div class="ln divider">----------------------------------------------------------------------------------------------------</div>
+        <div class="ln"><span class="prompt">$</span>cat toolbox.txt</div>
+        <div class="gap"></div>
+      </section>
+
+      <section id="contact">
+        <div class="ln divider">----------------------------------------------------------------------------------------------------</div>
+        <div class="ln"><span class="prompt">$</span>./contact.sh/</div>
+        <div class="ln">github=<a href="https://github.com/">github.com/username</a></div>
+      </section>
+    </main>
+  </body>
+</html>
